@@ -1,0 +1,31 @@
+header{
+    display: flex;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header ul{
+    display: none;
+    
+    list-style: none;
+    
+    position: absolute;
+    text-align: right;
+
+}
+header:hover ul, ul:hover{
+    display: block;
+}
+header li a {
+    text-decoration: none;
+}
+header li a:hover{
+    text-decoration:underline;
+}
+.perfil{
+    display: flex;
+}
+p{
+    color: blue;
+}
