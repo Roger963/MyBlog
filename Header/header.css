@@ -4,6 +4,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border: 10px;
 }
 header ul{
     display: none;
@@ -28,4 +29,5 @@ header li a:hover{
 }
 p{
     color: blue;
+    margin-right: 20px;
 }
